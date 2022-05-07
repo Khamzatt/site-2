@@ -1,0 +1,157 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto' sans-serif;
+}
+
+.container {
+  max-width: 1250px;
+  margin: auto;
+}
+
+.block-container h1 {
+  width: 123.51px;
+  font-weight: 1000;
+  font-size: 50px;
+}
+
+.block-container p {
+  text-align: center;
+  margin: -25px;
+}
+
+.block-h3 h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: bold;
+  margin-top: 70px;
+}
+
+.header .nav .block-nav {
+  margin-top: 30px;
+}
+
+.header .nav .block-nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+  cursor: pointer;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header .nav .block-nav ul .li-href {
+  font-weight: 1000;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header .nav .block-nav ul .li-href:hover {
+  color: #ff00ff;
+}
+
+.header .nav .block-nav ul li:hover {
+  color: #00ff00;
+}
+
+.block-container {
+  margin-top: 70px;
+}
+
+.block-container .block-img img {
+  margin-left: 10%;
+  margin-top: 50px;
+}
+
+.block-h2 {
+  background-color: #fffafa;
+}
+
+.block-h2 h2 {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.block-h2 > p {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.block-h3 .p {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.block-h3 .block-photoshop table td img {
+  padding-left: 130px;
+  margin-bottom: 10px;
+}
+
+.block-h3 .block-photoshop table td p {
+  margin-left: 133px;
+  margin-bottom: 10px;
+}
+
+.block-portfolio {
+  background-color: #F6F6F6;
+}
+
+.block-portfolio h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.block-portfolio img {
+  margin-left: 111px;
+  margin-bottom: 50px;
+}
+
+.block-portfolio h3 {
+  text-align: center;
+  margin-bottom: 60px;
+  text-decoration: underline;
+}
+
+.block-footer {
+  text-align: center;
+}
+
+.block-footer h2 {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.block-footer p {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.block-footer button {
+  cursor: pointer;
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  background-color: #070707;
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+  margin-bottom: 60px;
+}
+
+.block-footer button:hover {
+  color: #00ff00;
+}
+
+.block-footer .group img {
+  padding: 30px;
+}
+/*# sourceMappingURL=style.css.map */
